@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE clinicas>
+
+<clinicas>
+
+    <Clinica1>
+        <Nombre>Veterinaria Granada</Nombre>
+        <Direccion>Calle Granada 15</Direccion>
+        <Telefono>958123456</Telefono>
+
+        <Categorias>Perros</Categorias>
+        <Categorias>Gatos</Categorias>
+
+        <Animales>
+            <animal id="AB123">
+                <Nombre>Max</Nombre>
+                <Especie nombreComun="Perro" nombreCientifico="Canis lupus familiaris"/>
+                <AnioNacimiento>2020</AnioNacimiento>
+                <Categoria>Perros</Categoria>
+
+                <Propietario tipo="particular">
+                    <DNI>12345678A</DNI>
+                    <Nombre>Juan</Nombre>
+                    <Apellidos>Garcia Lopez</Apellidos>
+                    <Direccion>Calle Recogidas 20</Direccion>
+                    <Telefono>600123456</Telefono>
+                </Propietario>
+
+                <Ingresado>
+                    <ACargoDe>
+                        <Veterinario>Laura Martinez</Veterinario>
+                    </ACargoDe>
+                    <FechaIngreso>2026-09-25</FechaIngreso>
+                    <FechaPrevistaAlta>2026-10-02</FechaPrevistaAlta>
+                </Ingresado>
+            </animal>
+
+            <animal id="CD456">
+                <Nombre>Luna</Nombre>
+                <Especie nombreComun="Gato" nombreCientifico="Felis catus"/>
+                <AnioNacimiento>2022</AnioNacimiento>
+                <Categoria>Gatos</Categoria>
+
+                <Propietario tipo="protectora">
+                    <CIF>G12345678</CIF>
+                    <Nombre>Protectora Granada</Nombre>
+                    <Direccion>Calle Sol 10</Direccion>
+                    <Telefono>958654321</Telefono>
+                    <Responsable>
+                        <Nombre>Maria</Nombre>
+                        <Apellidos>Lopez Ruiz</Apellidos>
+                    </Responsable>
+                </Propietario>
+            </animal>
+        </Animales>
+
+        <Estado estado="abierta"/>
+    </Clinica1>
+
+
+    <Clinica2>
+        <Nombre>Clinica Animalia</Nombre>
+        <Direccion>Avenida Andalucia 50</Direccion>
+        <Telefono>958987654</Telefono>
+
+        <Categorias>Perros</Categorias>
+        <Categorias>Aves</Categorias>
+
+        <Animales>
+            <animal id="EF789">
+                <Nombre>Rocky</Nombre>
+                <Especie nombreComun="Perro" nombreCientifico="Canis lupus familiaris"/>
+                <AnioNacimiento>2019</AnioNacimiento>
+                <Categoria>Perros</Categoria>
+
+                <Propietario tipo="particular">
+                    <DNI>87654321B</DNI>
+                    <Nombre>Pedro</Nombre>
+                    <Apellidos>Martin Sanchez</Apellidos>
+                    <Direccion>Calle Sol 25</Direccion>
+                    <Telefono>611234567</Telefono>
+                    <Telefono>622345678</Telefono>
+                </Propietario>
+            </animal>
+
+            <animal id="GH321">
+                <Nombre>Kiwi</Nombre>
+                <Especie nombreComun="Canario" nombreCientifico="Serinus canaria"/>
+                <AnioNacimiento>2023</AnioNacimiento>
+                <Categoria>Aves</Categoria>
+
+                <Propietario tipo="protectora">
+                    <CIF>G87654321</CIF>
+                    <Nombre>Protectora Animalia</Nombre>
+                    <Direccion>Calle Luna 30</Direccion>
+                    <Telefono>958111222</Telefono>
+                    <Responsable>
+                        <Nombre>Pedro</Nombre>
+                        <Apellidos>Garcia Lopez</Apellidos>
+                    </Responsable>
+                </Propietario>
+            </animal>
+        </Animales>
+
+        <Estado estado="solo urgencias"/>
+    </Clinica2>
+
+</clinicas>

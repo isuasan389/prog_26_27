@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE videoclubs>
+
+<videoclubs>
+
+    <Videoclub1>
+        <Nombre>Videoclub Granada</Nombre>
+        <Direccion>Calle Granada 15</Direccion>
+        <Telefono>958123456</Telefono>
+
+        <Categorias>Accion</Categorias>
+        <Categorias>Comedia</Categorias>
+
+        <Peliculas>
+            <pelicula id="AB123">
+                <Titulo>Gladiator</Titulo>
+                <Director nombre="Ridley" apellidos="Scott"/>
+                <AnioEstreno>2000</AnioEstreno>
+                <Categoria>Accion</Categoria>
+
+                <AlquiladaA tipo="particular">
+                    <DNI>12345678A</DNI>
+                    <Nombre>Juan</Nombre>
+                    <Apellidos>Garcia Lopez</Apellidos>
+                    <Direccion>Calle Recogidas 20</Direccion>
+                    <Telefono>600123456</Telefono>
+                </AlquiladaA>
+
+                <FechaAlquiler>2026-09-25</FechaAlquiler>
+                <FechaDevolucion>2026-10-02</FechaDevolucion>
+            </pelicula>
+
+            <pelicula id="CD456">
+                <Titulo>La Mascara</Titulo>
+                <Director nombre="Chuck" apellidos="Russell"/>
+                <AnioEstreno>1994</AnioEstreno>
+                <Categoria>Comedia</Categoria>
+            </pelicula>
+        </Peliculas>
+
+        <Estado estado="abierto"/>
+    </Videoclub1>
+
+
+    <Videoclub2>
+        <Nombre>Videoclub Centro</Nombre>
+        <Direccion>Avenida Andalucia 50</Direccion>
+        <Telefono>958987654</Telefono>
+
+        <Categorias>Drama</Categorias>
+        <Categorias>CienciaFiccion</Categorias>
+
+        <Peliculas>
+            <pelicula id="EF789">
+                <Titulo>Interstellar</Titulo>
+                <Director nombre="Christopher" apellidos="Nolan"/>
+                <AnioEstreno>2014</AnioEstreno>
+                <Categoria>CienciaFiccion</Categoria>
+
+                <AlquiladaA tipo="empresa">
+                    <CIF>B12345678</CIF>
+                    <RazonSocial>Eventos Granada S.L.</RazonSocial>
+                    <Direccion>Calle Sol 25</Direccion>
+                    <Telefono>611234567</Telefono>
+                    <DepartamentoSolicitante>Organizacion</DepartamentoSolicitante>
+                </AlquiladaA>
+
+                <FechaAlquiler>2026-09-20</FechaAlquiler>
+                <FechaDevolucion>2026-09-30</FechaDevolucion>
+            </pelicula>
+
+            <pelicula id="GH321">
+                <Titulo>Forrest Gump</Titulo>
+                <Director nombre="Robert" apellidos="Zemeckis"/>
+                <AnioEstreno>1994</AnioEstreno>
+                <Categoria>Drama</Categoria>
+            </pelicula>
+        </Peliculas>
+
+        <Estado estado="en reformas"/>
+    </Videoclub2>
+
+</videoclubs>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE concesionario>
+
+<concesionario>
+
+    <Concesionario1>
+        <Nombre>Autos coripuebla</Nombre>
+        <Direccion>Calle Averroes</Direccion>
+        <Telefono>643749232</Telefono>
+
+        <Categorias>Hibrido</Categorias>
+        <Categorias>Electrico</Categorias>
+
+        <Vehiculos>
+            <vehiculo id="AB123">
+                <Marca nombreComercial="Toyota" paisOrigen="Japon"/>
+                <Modelo>Yaris</Modelo>
+                <AnioFabricacion>2024</AnioFabricacion>
+                <Categoria>Hibrido</Categoria>
+                <Reservado>
+                    <ReservadoA tipo="particular">
+                        <DNI>12345678A</DNI>
+                        <Nombre>Juan</Nombre>
+                        <Apellidos>Garcia Lopez</Apellidos>
+                        <Direccion>Calle Granada 25</Direccion>
+                        <Telefono>600123456</Telefono>
+                    </ReservadoA>
+                    <FechaReserva>2026-09-15</FechaReserva>
+                    <FechaPrevistaEntrega>2026-10-05</FechaPrevistaEntrega>
+                </Reservado>
+            </vehiculo>
+
+            <vehiculo id="CD456">
+                <Marca nombreComercial="Tesla" paisOrigen="Estados Unidos"/>
+                <Modelo>Model 3</Modelo>
+                <AnioFabricacion>2025</AnioFabricacion>
+                <Categoria>Electrico</Categoria>
+            </vehiculo>
+        </Vehiculos>
+
+        <Estado estado="abierto"/>
+    </Concesionario1>
+
+
+    <Concesionario2>
+        <Nombre>Auto Granada</Nombre>
+        <Direccion>Avenida Andalucia 120</Direccion>
+        <Telefono>958123456</Telefono>
+
+        <Categorias>Gasolina</Categorias>
+        <Categorias>Electrico</Categorias>
+
+        <Vehiculos>
+            <vehiculo id="EF789">
+                <Marca nombreComercial="Seat" paisOrigen="España"/>
+                <Modelo>Leon</Modelo>
+                <AnioFabricacion>2023</AnioFabricacion>
+                <Categoria>Gasolina</Categoria>
+                <Reservado>
+                    <ReservadoA tipo="empresa">
+                        <CIF>B12345678</CIF>
+                        <RazonSocial>Transportes Granada S.L.</RazonSocial>
+                        <Direccion>Calle Recogidas 45</Direccion>
+                        <Telefono>958654321</Telefono>
+                        <PersonaContacto>
+                            <Nombre>Maria</Nombre>
+                            <Apellidos>Martinez Ruiz</Apellidos>
+                        </PersonaContacto>
+                    </ReservadoA>
+                    <FechaReserva>2026-09-20</FechaReserva>
+                    <FechaPrevistaEntrega>2026-10-10</FechaPrevistaEntrega>
+                </Reservado>
+            </vehiculo>
+
+            <vehiculo id="GH321">
+                <Marca nombreComercial="Hyundai" paisOrigen="Corea del Sur"/>
+                <Modelo>Ioniq 5</Modelo>
+                <AnioFabricacion>2025</AnioFabricacion>
+                <Categoria>Electrico</Categoria>
+            </vehiculo>
+        </Vehiculos>
+
+        <Estado estado="inventario"/>
+    </Concesionario2>
+
+</concesionario>
