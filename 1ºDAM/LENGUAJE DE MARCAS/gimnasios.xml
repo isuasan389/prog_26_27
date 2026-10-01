@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE gimnasios>
+<gimnasios>
+
+    <gimnasio1>
+        <nombre>trembolona</nombre>
+        <direccion>C/Esteroides Nº10</direccion>
+        <telefono>66666666</telefono>
+
+            <categorias></categorias>
+            <equipamiento></equipamiento>
+    </gimnasio1>
+  
+    <gimnasio2>
+        <nombre>benzodiacepinas</nombre>
+        <direccion>C/Rojuu Nº25</direccion>
+        <telefono>472783984</telefono>
+
+        <categorias></categorias>
+        <equipamiento></equipamiento>
+    </gimnasio2>
+
+</gimnasios>
