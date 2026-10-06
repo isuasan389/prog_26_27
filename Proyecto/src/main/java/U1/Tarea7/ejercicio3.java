@@ -10,6 +10,6 @@ public class ejercicio3 {
 
         int numeroAleatorio = (int) (Math.random() * 26) + 97;
         System.out.println(numeroAleatorio);
-        
+
     }
 }
