@@ -9,18 +9,32 @@ public class ejercicio5 {
         // Pedir el valor al usuario
 
         System.out.print("Dime el valor del radio de una circunferencia:");
-        double valor = teclado.nextDouble();
+        double radio = teclado.nextDouble();
         teclado.nextLine();
 
         // Seleccionar la opcion
 
-        System.out.println("Selecciona una opción:");
+       System.out.println("\n--- MENU DE OPCIONES ---");
+        System.out.println("1.Calcular diametro");
+        System.out.println("2.Calcular perimetro");
+        System.out.println("3.Calcular area");
+        System.out.print("Elige una opcion (1-3):");
+        int opcion = teclado.nextInt();
 
-        String menu = teclado.nextLine();
-        switch(menu) {
-            case "1":System.out.println("1.Calcular diametro:"); break;
-            case "2":System.out.println("2.Calcular perimetro:"); break;
-            case "3":System.out.println("3.Calcular area:"); break;
+        // OPERACIONES PARA CALCULAR
+
+        switch(opcion) {
+            case 1:
+                double diametro = 2 * radio;
+                System.out.println("El diametro es:" + diametro); break;
+            case 2:
+                double perimetro = 2 * Math.PI * radio;
+                System.out.println("El perimetro es: " + perimetro); break;
+            case 3:
+                double area =  Math.PI * radio * radio;
+                System.out.println("El valor del area es: " + area); break;
+                
         }
+
     }
 }
