@@ -1,20 +1,28 @@
 package U1.EntregableModelo2;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class ejercicio1 {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        System.out.print("Introduzca la altura de los calcetines: ");
-        int altura = teclado.nextInt();
+        int altura;
 
-        for (int i = 1; i <= altura; i++) {
-            if (i <= altura / 2) {
-                System.out.println("***     ***");
-            } else {
-                System.out.println("******  ******");
-            }
+        do {
+            System.out.println("Introduce la altura de los calcetines: ");
+            altura = teclado.nextInt();
+            teclado.nextLine();
+
+        } while (altura < 4);
+
+        for (int i = 0; i < altura - 2; i++) {
+            System.out.println("***     ***");
+        }
+        for (int i = 0; i < 2; i++) {
+            System.out.println("******  ******");
+
         }
     }
 }
