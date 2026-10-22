@@ -15,19 +15,14 @@ public class ejercicio1 {
 
         } while (altura < 4);
 
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 1; i < 4; i++) {
+            for (int j = 1; j < 4; j++) {
                 System.out.print("*");
 
             }
             System.out.print("  ");
-        }
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < altura - 1; j++) {
-                System.out.print("*");
 
             }
             System.out.println();
-        }
     }
 }
