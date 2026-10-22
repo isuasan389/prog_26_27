@@ -2,7 +2,7 @@ package U1.ENTREGABLE.Ej1;
 
 import java.util.Scanner;
 
-public class ejercicio2 {
+public class rotaciones {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

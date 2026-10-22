@@ -2,7 +2,7 @@ package U1.ENTREGABLE.Ej1;
 
 import java.util.Scanner;
 
-public class ejercicio1 {
+public class casa {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int alturaTecho = 5;

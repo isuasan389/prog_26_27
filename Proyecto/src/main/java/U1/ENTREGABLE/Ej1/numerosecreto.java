@@ -3,7 +3,7 @@ package U1.ENTREGABLE.Ej1;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ejercicio4 {
+public class numerosecreto {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         Random random = new Random();

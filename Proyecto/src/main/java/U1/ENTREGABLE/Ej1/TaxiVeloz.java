@@ -1,9 +1,8 @@
 package U1.ENTREGABLE.Ej1;
 
-import javax.swing.*;
 import java.util.Scanner;
 
-public class ejercicio3 {
+public class TaxiVeloz {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

@@ -1,10 +1,8 @@
 package U1.EntregableModelo2;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
-public class ejercicio1 {
+public class calcetines {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
