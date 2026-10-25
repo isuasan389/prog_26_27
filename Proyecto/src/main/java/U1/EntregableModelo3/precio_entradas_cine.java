@@ -2,7 +2,7 @@ package U1.EntregableModelo3;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ejercicio3 {
+public class precio_entradas_cine {
     static void main(String[] args) {
 
                 // Para que los decimales salgan con punto (8.00) y no con coma

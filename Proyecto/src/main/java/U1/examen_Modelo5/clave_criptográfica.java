@@ -3,7 +3,7 @@ package U1.examen_Modelo5;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ejercicio3 {
+public class clave_criptográfica {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 

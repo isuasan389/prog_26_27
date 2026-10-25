@@ -18,14 +18,14 @@ public class ejercicio4 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         long numero;
         int cifras;
 
         // Pedimos el número hasta que sea positivo y tenga un número par de cifras
         do {
             System.out.println("Introduce un número:");
-            numero = sc.nextLong();
+            numero = teclado.nextLong();
 
             // Contamos las cifras
             cifras = 0;

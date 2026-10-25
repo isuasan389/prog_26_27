@@ -2,7 +2,7 @@ package U1.EntregableModelo3;
 
 import java.util.Scanner;
 
-public class ejercicio1 {
+public class dibujarZ {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int altura;

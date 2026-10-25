@@ -1,7 +1,7 @@
 package U1.EntregableModelo3;
 import java.util.Scanner;
 
-public class ejercicio2 {
+public class ocurrencias_posiciones {
     static void main(String[] args) {
 
                 Scanner teclado = new Scanner(System.in);

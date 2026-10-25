@@ -2,7 +2,7 @@ package U1.examen_Modelo5;
 
 import java.util.Scanner;
 
-public class ejercicio4 {
+public class precio_mediante_peso_total {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
