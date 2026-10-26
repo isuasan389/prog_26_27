@@ -2,7 +2,7 @@ package U1.EntregableModelo2;
 
 import java.util.Scanner;
 
-public class ejercicio2 {
+public class recorrer_borrar_digitos {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
