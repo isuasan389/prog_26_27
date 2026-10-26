@@ -2,7 +2,7 @@ package U1.EntregableModelo2;
 
 import java.util.Scanner;
 
-public class ejercicio4 {
+public class incrementarHora {
     static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);
 

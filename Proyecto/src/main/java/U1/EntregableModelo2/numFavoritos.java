@@ -2,7 +2,7 @@ package U1.EntregableModelo2;
 
 import java.util.Scanner;
 
-public class ejercicio3 {
+public class numFavoritos {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
