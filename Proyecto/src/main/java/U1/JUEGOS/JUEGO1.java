@@ -15,7 +15,7 @@ public class JUEGO1 {
         System.out.println("2.Rechazar la llamada");
         System.out.println("¿Que quieres hacer?: ");
         int decision = teclado.nextInt();
-
+        //PRIMERA DECISION
         if (decision == 1) {
             System.out.println("Alguien susurra tu nombre mientras golpean fuertemente la puerta extraña que nunca decidiste abrir en tu casa...");
             System.out.println("Te acercas a la puerta con miedo.");
@@ -23,6 +23,19 @@ public class JUEGO1 {
             System.out.println("Se apagan las luces de tu casa de manera extraña.");
         } else {
             System.out.println("Esa opcion no es válida.");
+        //SEGUNDA DECISIÓN
+        }
+        if (decision == 1) {
+            System.out.println("1. Abrir la puerta.");
+            System.out.println("2. Esconderte.");
+            System.out.println("3. Escapar por el garaje.");
+            decision = teclado.nextInt();
+        } else if (decision == 2) {
+            System.out.println("1. Te pones nervioso y escribes un mensaje a tus padres tras llamar a la policia.");
+            System.out.println("2. Corres a tu cuarto y te metes en el armario");
+            decision = teclado.nextInt();
+        } else {
+            System.out.println("Esa opción no es valida.");
 
         }
     }
