@@ -1,5 +1,7 @@
 package U1.JUEGOS;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class JUEGO1 {
@@ -25,6 +27,8 @@ public class JUEGO1 {
             System.out.println("Esa opcion no es válida.");
         //SEGUNDA DECISIÓN
         }
+        System.out.println();
+
         if (decision == 1) {
             System.out.println("1. Abrir la puerta.");
             System.out.println("2. Esconderte.");
@@ -38,5 +42,6 @@ public class JUEGO1 {
             System.out.println("Esa opción no es valida.");
 
         }
+        System.out.println("FIN DEL JUEGO");
     }
 }
