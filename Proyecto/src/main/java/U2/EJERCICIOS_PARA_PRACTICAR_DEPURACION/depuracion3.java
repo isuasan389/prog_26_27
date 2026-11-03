@@ -25,8 +25,6 @@ public class depuracion3 {
 
             if (num % i == 0) {
                 esPrimo = false;
-            } else {
-                esPrimo = true;
             }
         }
         return esPrimo;
