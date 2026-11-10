@@ -14,7 +14,6 @@ public class diseñar_funcion_enteros {
 
         System.out.println("Introduce el segundo numero entero:");
         int entero2 = teclado.nextInt();
-
+        
     }
 }
-
