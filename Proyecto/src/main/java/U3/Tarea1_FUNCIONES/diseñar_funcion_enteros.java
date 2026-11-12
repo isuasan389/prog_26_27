@@ -3,10 +3,7 @@ package U3.Tarea1_FUNCIONES;
 import java.util.Scanner;
 
 public class diseñar_funcion_enteros {
-    public static void imprimir (resultado) {
-
-    }
-    static void main(String[] args) {
+    public static void imprimir (int resultado) {
 
         Scanner teclado = new Scanner (System.in);
         System.out.println("Introduce un numero entero: ");
@@ -14,6 +11,5 @@ public class diseñar_funcion_enteros {
 
         System.out.println("Introduce el segundo numero entero:");
         int entero2 = teclado.nextInt();
-        
     }
 }
